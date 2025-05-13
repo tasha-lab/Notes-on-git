@@ -1,4 +1,7 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 *{
+
     background-color: rgb(85, 255, 255);
 }
 img{
@@ -16,3 +19,41 @@ figcaption{
     font-style: italic;
     text-align: center;
 }
+
+
+
+.branch p{
+    /*font-family: "Comic Relief", system-ui;
+    font-weight: 700px;*/
+    text-align: justify;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.branch ol{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.branch p::first-letter{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+code{
+    background-color: rgb(64, 185, 181);
+}
+
+.next-steps p{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: justify;
+}
+
+.next-steps p::first-letter{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+
