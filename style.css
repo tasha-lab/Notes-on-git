@@ -1,3 +1,21 @@
 *{
     background-color: rgb(35, 209, 209);
 }
+
+.major-paragraph{
+    padding: 10px;
+    margin: 30px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.minor-paragraph{
+    background-color: rgb(84, 84, 84);
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    
+}
