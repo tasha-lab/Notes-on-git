@@ -14,23 +14,23 @@
     <div>
       <h1>GIT</h1>
       <h2>What is git?</h2>
-      <p>
+      <p class="m-paragraph">
         Git is a version control sysytem. A version control sysytem is a tool
         used to track and manage changes over time. A (VCS) is divided into
         two:
       </p>
-      <ul>
+      <ul class="t-list">
         <li>Centralized version control system</li>
         <li>Decentralized version control system</li>
       </ul>
-      <p>Git is useful to its users in different ways. Its used to:</p>
-      <ul>
+      <p class="m-paragraph">Git is useful to its users in different ways. Its used to:</p>
+      <ul class="t-list">
         <li>Track changes</li>
         <li>Collaborate with others on projects</li>
         <li>Revert back to old versions or forms</li>
       </ul>
       <h3>Installing git</h3>
-      <p>
+      <p class="m-paragraph">
         Let's get practical!<br />
         First, check whether git is already installed in your machine. To do
         this, open your terminal or command prompt from the start menu or from
@@ -46,7 +46,7 @@
 
       <div>
         <h3>Configuring git</h3>
-        <p>
+        <p class="m-paragraph">
           One down, many to go! <br />At this point, i am assuming you already
           have git installed. Now lets have it configured. Let us start with
           the username. To configure the username, run
@@ -67,7 +67,7 @@
 
       <div>
         <h3>Initializing a git repository</h3>
-        <p>
+        <p class="m-paragraph">
           Now that we have git installed and configured with our email and our
           username, lets initialize a git repository. Think of a git
           repository as a <i>folder </i> that we track all of our changes.
@@ -94,7 +94,7 @@
 
       <div>
         <h3>Adding files to the staging area</h3>
-        <p>
+        <p class="m-paragraph">
           You are doing amazing! now we need to add files to the staging area.
           Think of the staging area like a waiting room, your code stays there
           waiting to be admitted. To do this, we use
@@ -104,7 +104,7 @@
           <img src="./images/adding files.png" alt="A screenshot of adding files to the staging area" width="600px" />
           <figcaption>Adding files to the staging area</figcaption>
         </figure>
-        <p>
+        <p class="m-paragraph">
           From the screenshot above, you can see that when we added the .txt
           file it was ready for commit and it was in green, that is a tracked
           file meaning that it is now being monitored by git while the .html file was red until we added it to the
@@ -116,16 +116,19 @@
 
       <div>
         <h3>Commiting changes</h3>
-        We are almost done here. Commiting is like 'saving' the changes you
-        added earlier. To commit you need to use
-        <i>git commit -m "commit message"</i>. For the 'commit messages'
-        should answer, 'What will this commit do?'. For example git commit -m
-        "Add our files to..."
+        <p class="m-paragraph">
+          We are almost done here. Commiting is like 'saving' the changes you
+          added earlier. To commit you need to use
+          <i>git commit -m "commit message"</i>. For the 'commit messages'
+          should answer, 'What will this commit do?'. For example git commit -m
+          "Add our files to..."
+        </p>
+
         <figure>
           <img src="./images/commiting.png" alt="a screenshot of a commit command in terminal" width="600px" />
           <figcaption>A commit command and the expected result</figcaption>
         </figure>
-        <p>
+        <p class="m-paragraph">
           It is also possible to view all of our past commits. We use
           <i>git log</i>
         <figure>
@@ -139,7 +142,7 @@
     <div class="branch">
       <div>
         <h2>Branches</h2>
-        <p>
+        <p class="m-paragraph">
           In a nutshell, branching helps in creating a copy of a file without
           messing the original file. Branching can be used in many instances eg:
         <ol>
