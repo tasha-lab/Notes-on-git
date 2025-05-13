@@ -66,4 +66,18 @@ h3{
     text-decoration-line: underline;
 }
 
+.m-paragraph{
+    font-family: "Lexend", sans-serif;
+    font-size: small;
+    padding: 10px;
+    margin: 30px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    text-align: justify;
+}
 
+.t-list li{
+    list-style-type: circle;
+}
