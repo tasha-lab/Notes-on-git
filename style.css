@@ -1,8 +1,26 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 *{
-    background-color: rgb(85, 225, 225);
+
+    background-color: rgb(85, 255, 255);
 }
+img{
+border-radius: 8px;
+ padding: 5px;
+ width: 50%;
+}
+
+img:hover {
+  box-shadow: 0 0 5px 5px #4d00ba80;   
+}
+
+figcaption{
+    text-transform:none;
+    font-style: italic;
+    text-align: center;
+}
+
+
 
 .branch p{
     /*font-family: "Comic Relief", system-ui;
@@ -37,4 +55,5 @@ code{
     text-transform: uppercase;
     font-size: 50px;
 }
+
 
