@@ -11,7 +11,7 @@ Using basic features we learnt in our teach2give training sessions, and research
 4. Caroline Wanjiku - Cmuiru49
 
 ## Tasks Completed
-- Heading and hierachy styling (**Caroline Wanjiku**)
-- Image styling and manipulation (**Diis Asma**)
-- Partial paragraph styling and readme.md creation (**Nathanael Mutua**)
-- Pull Management, paragraph styling from branches to the end of the page and page layout (**Halima Mohamed**)
+1. Heading and hierachy styling (**Caroline Wanjiku**)
+1. Image styling and manipulation (**Diis Asma**)
+1. Partial paragraph styling and readme.md creation (**Nathanael Mutua**)
+1. Pull Management, paragraph styling from branches to the end of the page and page layout (**Halima Mohamed**)
